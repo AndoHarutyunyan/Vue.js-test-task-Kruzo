@@ -39,7 +39,8 @@ export default new Vuex.Store({
     async getCustomerList({ commit }, { page, limit }) {
       try {
         const { data, headers } = await axios.get(
-          `http://localhost:3000/customerList?_page=${page}&_limit=${limit}`
+          `https://customer-backend-lsqm.onrender.com/customerList?_page=${page}&_limit=${limit}`
+          
         );
         commit("SET_LIST_COUNT", Number(headers["x-total-count"]));
         commit("SET_CUSTOMER_LIST", data);
@@ -50,7 +51,7 @@ export default new Vuex.Store({
     async updateCustomerList({ commit }, { tags, id }) {
       try {
         const { data } = await axios.patch(
-          `http://localhost:3000/customerList/${id}`,
+          `https://customer-backend-lsqm.onrender.com/customerList/${id}`,
           { tags }
         );
         commit("UPDATE_CUSTOMER_LIST", data);
