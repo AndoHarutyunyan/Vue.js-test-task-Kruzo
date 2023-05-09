@@ -3,7 +3,8 @@
 ## Overview
 Dashboard app was written in Vue2.\
 Have used Bulma and Buefy for UI design. Used Vuex for data storage.\
-Used json-server to handle REST API calls and store customer data in JSON file.
+Used json-server (Deployed as a separate service) to handle REST API\
+calls and store customer data in JSON file.
 
 ## Clone the project
 ```
