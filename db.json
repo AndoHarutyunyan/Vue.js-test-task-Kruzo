@@ -1,9 +1,490 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicodecxkjgvhdlkvjlfdjvk;led" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some commentdsfghdhfsdhfg", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+  "customerList": [
+    {
+      "id": 1,
+      "user": {
+        "first_name": "Jesse",
+        "last_name": "Simmons"
+      },
+      "date": "2016/10/15 13:43:27",
+      "gender": "Male",
+      "balance": 450860.21,
+      "tags": [
+        "React.js",
+        "nuxt.js",
+        "vue.js"
+      ]
+    },
+    {
+      "id": 2,
+      "user": {
+        "first_name": "John",
+        "last_name": "Jacobs"
+      },
+      "date": "2016/12/15 06:00:53",
+      "gender": "Male",
+      "balance": 770860,
+      "tags": [
+        "QA",
+        "PM",
+        "PHP"
+      ]
+    },
+    {
+      "id": 3,
+      "user": {
+        "first_name": "Tina",
+        "last_name": "Gilbert"
+      },
+      "date": "2016/04/26 06:26:28",
+      "gender": "Female",
+      "balance": 1160,
+      "tags": [
+        "Python",
+        "PHP",
+        "Node.js"
+      ]
+    },
+    {
+      "id": 4,
+      "user": {
+        "first_name": "Clarence",
+        "last_name": "Flores"
+      },
+      "date": "2016/04/10 10:28:46",
+      "gender": "Male",
+      "balance": 5800,
+      "tags": [
+        "Vue.js",
+        "Laravel",
+        "TypeScript"
+      ]
+    },
+    {
+      "id": 5,
+      "user": {
+        "first_name": "Anne",
+        "last_name": "Lee"
+      },
+      "date": "2016/12/06 14:38:38",
+      "gender": "Female",
+      "balance": 6913.3,
+      "tags": []
+    },
+    {
+      "id": 6,
+      "user": {
+        "first_name": "Sara",
+        "last_name": "Armstrong"
+      },
+      "date": "2016/09/23 18:50:04",
+      "gender": "Female",
+      "balance": 10913.3,
+      "tags": [
+        "PM",
+        "TypeScript",
+        "Node.js"
+      ]
+    },
+    {
+      "id": 7,
+      "user": {
+        "first_name": "Anthony",
+        "last_name": "Webb"
+      },
+      "date": "2016/08/30 23:49:38",
+      "gender": "Male",
+      "balance": 13913.3,
+      "tags": [
+        "Node.js",
+        "React.js",
+        "Vue.js"
+      ]
+    },
+    {
+      "id": 8,
+      "user": {
+        "first_name": "Caleb",
+        "last_name": "Nguyen"
+      },
+      "date": "2022/03/01 09:24:35",
+      "gender": "Male",
+      "balance": 367001.92,
+      "tags": [
+        "Angular",
+        "Express.js"
+      ]
+    },
+    {
+      "id": 9,
+      "user": {
+        "first_name": "Ethan",
+        "last_name": "Smith"
+      },
+      "date": "2022/04/20 14:57:32",
+      "gender": "Male",
+      "balance": 1054021.43,
+      "tags": [
+        "React.js",
+        "Vue.js",
+        "Node.js"
+      ]
+    },
+    {
+      "id": 10,
+      "user": {
+        "first_name": "Olivia",
+        "last_name": "Garcia"
+      },
+      "date": "2023/01/01 09:12:56",
+      "gender": "Female",
+      "balance": 729431.89,
+      "tags": [
+        "react"
+      ]
+    },
+    {
+      "id": 11,
+      "user": {
+        "first_name": "Noah",
+        "last_name": "Rodriguez"
+      },
+      "date": "2022/11/23 16:28:13",
+      "gender": "Male",
+      "balance": 942860.15,
+      "tags": [
+        "Angular.js",
+        "Express.js",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": 12,
+      "user": {
+        "first_name": "Emma",
+        "last_name": "Martinez"
+      },
+      "date": "2022/07/15 18:39:21",
+      "gender": "Female",
+      "balance": 321506.09,
+      "tags": [
+        "Vue.js",
+        "Nuxt.js",
+        "Vuetify"
+      ]
+    },
+    {
+      "id": 13,
+      "user": {
+        "first_name": "William",
+        "last_name": "Lee"
+      },
+      "date": "2023/04/05 08:10:47",
+      "gender": "Male",
+      "balance": 586239.22,
+      "tags": [
+        "React.js",
+        "Redux",
+        "Material UI"
+      ]
+    },
+    {
+      "id": 14,
+      "user": {
+        "first_name": "Sophia",
+        "last_name": "Turner"
+      },
+      "date": "2022/12/18 22:17:36",
+      "gender": "Female",
+      "balance": 912370.64,
+      "tags": [
+        "React.js",
+        "Gatsby",
+        "GraphQL"
+      ]
+    },
+    {
+      "id": 15,
+      "user": {
+        "first_name": "James",
+        "last_name": "Perez"
+      },
+      "date": "2022/10/06 15:53:09",
+      "gender": "Male",
+      "balance": 754930.95,
+      "tags": [
+        "Vue.js",
+        "Quasar",
+        "Firebase"
+      ]
+    },
+    {
+      "id": 17,
+      "user": {
+        "first_name": "Benjamin",
+        "last_name": "Hernandez"
+      },
+      "date": "2022/08/28 09:15:37",
+      "gender": "Male",
+      "balance": 408567.79,
+      "tags": [
+        "React.js",
+        "Webpack",
+        "Jest"
+      ]
+    },
+    {
+      "id": 18,
+      "user": {
+        "first_name": "Mia",
+        "last_name": "Gonzalez"
+      },
+      "date": "2022/05/14 17:09:52",
+      "gender": "Female",
+      "balance": 981045.32,
+      "tags": [
+        "React Native",
+        "Expo",
+        "Styled Components"
+      ]
+    },
+    {
+      "id": 20,
+      "user": {
+        "first_name": "Caleb",
+        "last_name": "Nguyen"
+      },
+      "date": "2022/03/01 09:24:35",
+      "gender": "Male",
+      "balance": 367001.92,
+      "tags": [
+        "Angular",
+        "Node.js",
+        "Express.js"
+      ]
+    },
+    {
+      "id": 21,
+      "user": {
+        "first_name": "Sophia",
+        "last_name": "Garcia"
+      },
+      "date": "2022/04/19 17:12:45",
+      "gender": "Female",
+      "balance": 52067.78,
+      "tags": [
+        "React Native",
+        "Firebase",
+        "Expo"
+      ]
+    },
+    {
+      "id": 22,
+      "user": {
+        "first_name": "Adrian",
+        "last_name": "Robinson"
+      },
+      "date": "2022/01/08 08:53:11",
+      "gender": "Male",
+      "balance": 725495.11,
+      "tags": [
+        "Vue.js",
+        "Tailwind CSS",
+        "Laravel"
+      ]
+    },
+    {
+      "id": 23,
+      "user": {
+        "first_name": "Makayla",
+        "last_name": "Allen"
+      },
+      "date": "2022/05/07 12:06:18",
+      "gender": "Female",
+      "balance": 93626.52,
+      "tags": [
+        "React.js",
+        "Redux",
+        "Next.js"
+      ]
+    },
+    {
+      "id": 24,
+      "user": {
+        "first_name": "Isaac",
+        "last_name": "Green"
+      },
+      "date": "2022/02/14 21:38:59",
+      "gender": "Male",
+      "balance": 192564.43,
+      "tags": [
+        "Vue.js",
+        "Vuetify",
+        "Nuxt.js"
+      ]
+    },
+    {
+      "id": 25,
+      "user": {
+        "first_name": "Leah",
+        "last_name": "Torres"
+      },
+      "date": "2022/06/28 08:17:55",
+      "gender": "Female",
+      "balance": 307128.06,
+      "tags": [
+        "React Native",
+        "Expo",
+        "Firebase"
+      ]
+    },
+    {
+      "id": 26,
+      "user": {
+        "first_name": "Nathaniel",
+        "last_name": "Lopez"
+      },
+      "date": "2022/03/21 16:59:03",
+      "gender": "Male",
+      "balance": 685019.81,
+      "tags": [
+        "Angular",
+        "RxJS",
+        "Ionic"
+      ]
+    },
+    {
+      "id": 27,
+      "user": {
+        "first_name": "Olivia",
+        "last_name": "Scott"
+      },
+      "date": "2022/08/11 11:47:02",
+      "gender": "Female",
+      "balance": 803322.23,
+      "tags": [
+        "React.js",
+        "Material UI",
+        "Gatsby"
+      ]
+    },
+    {
+      "id": 29,
+      "user": {
+        "first_name": "Liam",
+        "last_name": "Wong"
+      },
+      "date": "2020/02/14 17:32:01",
+      "gender": "Male",
+      "balance": 847593.12,
+      "tags": [
+        "React.js",
+        "Vue.js",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": 30,
+      "user": {
+        "first_name": "Olivia",
+        "last_name": "Garcia"
+      },
+      "date": "2018/05/09 11:54:36",
+      "gender": "Female",
+      "balance": 205389.94,
+      "tags": [
+        "React.js",
+        "Angular.js",
+        "Node.js"
+      ]
+    },
+    {
+      "id": 31,
+      "user": {
+        "first_name": "Ethan",
+        "last_name": "Kim"
+      },
+      "date": "2022/01/02 08:14:59",
+      "gender": "Male",
+      "balance": 698345.66,
+      "tags": [
+        "Vue.js",
+        "React.js",
+        "Angular.js"
+      ]
+    },
+    {
+      "id": 32,
+      "user": {
+        "first_name": "Avery",
+        "last_name": "Chen"
+      },
+      "date": "2019/11/30 20:47:22",
+      "gender": "Non-binary",
+      "balance": 1234789.32,
+      "tags": [
+        "Next.js"
+      ]
+    },
+    {
+      "id": 33,
+      "user": {
+        "first_name": "Lucas",
+        "last_name": "Gomez"
+      },
+      "date": "2021/07/15 13:59:08",
+      "gender": "Male",
+      "balance": 435230.2,
+      "tags": [
+        "React.js",
+        "Next.js",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "id": 34,
+      "user": {
+        "first_name": "Emma",
+        "last_name": "Wang"
+      },
+      "date": "2017/03/27 09:03:45",
+      "gender": "Female",
+      "balance": 95432.05,
+      "tags": [
+        "Vue.js",
+        "Nuxt.js",
+        "Strapi"
+      ]
+    },
+    {
+      "id": 35,
+      "user": {
+        "first_name": "Mason",
+        "last_name": "Liu"
+      },
+      "date": "2020/10/09 16:22:55",
+      "gender": "Male",
+      "balance": 267945.63,
+      "tags": [
+        "React Native",
+        "Firebase",
+        "Expo"
+      ]
+    },
+    {
+      "id": 36,
+      "user": {
+        "first_name": "Sophia",
+        "last_name": "Lee"
+      },
+      "date": "2018/12/04 22:11:39",
+      "gender": "Female",
+      "balance": 628957.12,
+      "tags": [
+        "Angular.js",
+        "Node.js",
+        "MongoDB"
+      ]
+    }
+  ]
+}
