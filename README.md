@@ -1,11 +1,21 @@
-# project
+# Customer Dashboard
 
-## Project setup
+## Overview
+Dashboard app was written in Vue2.\
+Have used Bulma and Buefy for UI design. Used Vuex for data storage.\
+Used json-server to handle REST API calls and store customer data in JSON file.
+
+## Clone the project
+```
+git clone https://github.com/AndoHarutyunyan/Vue.js-test-task-Kruzo.git
+```
+
+## Install dependencies
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and run for development
 ```
 npm run dev
 ```
@@ -19,6 +29,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
